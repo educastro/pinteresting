@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 1.2'
 
 # Use Bootstrap
 gem 'bootstrap-sass'
+
+# Devise for login stuff
+gem 'devise', '~>3.1.0.rc2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
